@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Airports Authority Of India</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
+
+      </head>
+
+<body style="background-size: cover" background="/src/background.png">
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="/src/logo.png" width="95" height="50" alt="">
+            Airports Authority Of India
+        </a>
+
+        <ul class=" nav justify-content-end">
+                <li class="nav-item">
+                        <a class="nav-link" href="/rules">Instructions</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/userStatus">Check Status</a>
+              </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+              </li>
+        </ul>
+    </nav>
+
+    <div class="container" style="padding-top: 7%">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item " aria-current="page">Application Form</li>
+            </ol>
+        </nav>
+        <h3 style="margin-top:5%;margin-bottom: 4%" align="center">Application Form</h3>
+
+
+        <form>
+            <h4 style="margin-top:5%;margin-bottom: 4%" align="center">Employee Details</h4>
+            <hr>
+            <br>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label>Employee ID *</label>
+                    <input class="form-control" id="employeeId" type="number" placeholder="123456">
+                </div>
+                <div class="form-group col-md-7">
+                    <label>Employee Name *</label>
+                    <input type="text" id="name" type="text" class="form-control" placeholder="Employee Name">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputState">Sex *</label>
+                    <select id="sex" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label>Date Of Birth *</label>
+                    <input type="date" class="form-control" id="dob">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputState">Department *</label>
+                    <select id="department" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>IT</option>
+                        <option>HR</option>
+                        <option>Technical</option>
+                        <option>Legal</option> 
+                        <option>Commercial</option> 
+                        <option>Operations</option> 
+                        <option>Security</option> 
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Designation *</label>
+                    <select id="designation" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Junior Executive</option>
+                        <option>Manager</option>
+                        <option>Asst. Manager</option>
+                        <option>Asst. General Manager</option>
+                        <option>Deputy General Manager</option>
+                        <option>Joint General Manager</option>
+                        <option>General Manager</option>  
+                    </select>
+                </div>
+
+
+            </div>
+            <div class="form-row">
+
+                <div class="form-group col-md-5">
+                    <label>Mobile No *</label>
+                    <input type="number" class="form-control" id="contactNumber" placeholder="XXXXYYYYZZ">
+                </div>
+                <div class="form-group col-md-5">
+                    <label>Aadhaar Card No *</label>
+                    <input type="number" class="form-control" id="aadhaarNumber" placeholder="XXXX/YYYY/ZZZZ">
+                </div>
+            </div>
+            <div class="form-row">
+
+                <div class="form-group col-md-5">
+                    <label>Pancard Number *</label>
+                    <input type="text" class="form-control" id="panNumber" placeholder="PanNo.">
+                </div>
+                <div class="form-group col-md-5">
+                    <label>Email Id *</label>
+                    <input type="email" class="form-control" id="emailId" placeholder="xyz@abc.com">
+                </div>
+
+
+
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-10">
+                    <label for="inputAddress">Address *</label>
+                    <input type="text" class="form-control" id="address" placeholder="Address">
+                </div>
+            </div>
+
+            <div class="form-row">
+
+                <div class="form-group col-md-4">
+                    <label for="inputState">State *</label>
+                    <select id="state" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Delhi</option>
+                        <option>Ghaziabad</option>
+                        <option>Jammu & Kashmir</option>
+                        <option>Sikkim</option>
+                        <option>Mumbai</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttarakhand</option>
+                        <option>West Bengal</option>
+                        <option>Andaman and Nicobar Islands</option>
+                        <option>Chandigarh</option>
+                        <option>Dadra and Nagar Haveli</option>
+                        <option>Daman and Diu</option>
+                        <option>Lakshadweep</option>
+                        <option>Puducherry</option>
+
+
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip Code *</label>
+                    <input type="number" class="form-control" id="zip" placeholder="Zip Code">
+                </div>
+            </div>
+
+            <h4 style="margin-top:5%;margin-bottom: 4%" align="center">Other Details</h4>
+            <hr>
+            <br>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Name of Father</label>
+                    <input type="text" class="form-control" id="fatherName" placeholder="Father's Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Mobile No</label>
+                    <input type="number" class="form-control" id="mob2" placeholder="XXXXYYYYZZ">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Name of Mother</label>
+                    <input type="text" class="form-control" id="motherName" placeholder="Mother's Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Mobile No</label>
+                    <input type="number" class="form-control" id="mob3" placeholder="XXXXYYYYZZ">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+
+                    <label for="inputState">Marital Status</label>
+                    <select id="maritalStatus" class="form-control">
+                        <option selected>Choose...</option>
+                        <option id="married">Married</option>
+                        <option id="UnMarried">Un-Married</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label>Name of Spouse</label>
+                    <input type="text" class="form-control" id="spouseName" placeholder="Spouse Name">
+                </div>
+            </div>
+               <br>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Proceed
+                    </label>
+                </div>
+            </div>
+        </form>
+        <br>
+
+        <button id="submit" class="btn btn-primary">Apply</button>
+
+
+
+        <hr>
+        <br>
+        <p align="center">For more information please contact the concerned authorities</p>
+  
+
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
+
+</body>
+
+
+</html>

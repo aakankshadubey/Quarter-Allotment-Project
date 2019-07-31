@@ -1,0 +1,133 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airports Authority Of India</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body style="background-size: cover" background="/src/background.png">
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="/src/logo.png" width="95" height="50" alt="logo">
+      Airports Authority Of India
+    </a>
+
+    <ul class=" nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/userLogin">User Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/hrLogin">HR Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/qaLogin">Quarter Admin Login</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container" style="padding-top: 7%">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item " aria-current="page">Home</li>
+
+      </ol>
+    </nav>
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/src/1.jpg" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="/src/2.jpg" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="/src/3.jpg" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="/src/4.jpg" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="/src/7.png" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="/src/6.jpg" alt="Image">
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <br>
+
+
+    <div style="margin: 32px">
+      <div class="card-deck">
+        <div class="card  border-danger mb-3" style="max-width: 21rem;">
+          <div class="card-header">HR Login</div>
+          <div class="card-body text-dark">
+            <h5 class="card-title">Login here for HR only</h5>
+            <p class="card-text"> Login for HR Department to verify applicants </p>
+            <a href="/hrLogin"> <button type="button" class="btn btn-outline-danger btn-lg">Login HR</button></a>
+          </div>
+        </div>
+
+        <div class="card border-info mb-3" style="max-width: 21rem;">
+          <div class="card-header">Head Login</div>
+          <div class="card-body text-dark">
+            <h5 class="card-title">Login for Head only</h5>
+            <p class="card-text">Login for Head to allot quarters to the applicants </p>
+            <a href="/qaLogin"> <button type="button" class="btn btn-outline-info btn-lg">Login Head</button></a>
+          </div>
+        </div>
+
+        <div class="card border-dark mb-3" style="max-width: 21rem;">
+          <div class="card-header">User Login</div>
+          <div class="card-body text-dark">
+            <h5 class="card-title">Login here for users only</h5>
+            <p class="card-text"> Login for Users to apply for quarters and check status</p>
+            <a href="/userLogin"> <button type="button" class="btn btn-outline-dark btn-lg">Login User</button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card border-warning mb-3">
+        <div class="card-body">
+          <h5 class="card-title" align="center">Apply for Quaters</h5>
+          <p class="card-text" align="center">First you need to fill a form, form link is below.</p>
+          <p class="card-text" align="center">Then the authorities verify your application</p>
+          <p align="center"> <a href="/userLogin" class="btn btn-outline-warning btn-lg">Apply</a></p>
+        </div>
+      </div>
+      <div>
+        <hr>
+        <br>
+        <p align="center">For more information please contact the concerned authorities</p>
+      </div>
+</body>
+
+</html>
