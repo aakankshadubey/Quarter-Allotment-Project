@@ -3,15 +3,15 @@
    ### A web application used to digitize process of quarter allotment
 <p>
     
-    Website for quarter Allotment is an application that will digitalize the current system for allotment 
-    of quarters to its employees. 
-    Existing Employee can login themselves on the application. After login he/she can fill application form
-     by accepting terms and conditions. Application form verified by Management in two steps.
-    Firstly, by HR department and then by quarter admin where he/she is allotted with a quarter. After 
-    verification employee get status with the allotted quarter number. Employee can check application status
-     regularly and get correct information.
-    This is the solution that can save the time required in original process and provides every step under
-     one roof.
+    Website for quarter Allotment is an application that will digitalize the current system 
+    for allotment of quarters to its employees. Existing Employee can login themselves on the 
+    application. After login he/she can fill application form by accepting terms and conditions. 
+    Application form verified by Management in two steps.
+    Firstly, by HR department and then by quarter admin where he/she is allotted with a quarter.
+    After verification employee get status with the allotted quarter number. Employee can check 
+    application status regularly and get correct information.
+    This is the solution that can save the time required in original process and provides every step
+    under one roof.
 
 
 </p>
@@ -102,7 +102,9 @@
 <br>
 
 
-<br><br>
+<br>
+
+###     Technologies used: Node.js., HTML, CSS, JavaScript, jQuery, MySQL
 
 
 
